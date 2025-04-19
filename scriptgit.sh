@@ -18,11 +18,11 @@ read -p "Enter the Other Branch" OTHER_BRANCH
 
 git checkout $OTHER_BRANCH
 
-touch  phthon.txt,maven.txt
+touch   error.txt,sample.html,register.aspx
 
 git add .
  
-git commit -m "lastbest"
+git commit -m "Add new folder"
 git checkout $CURRENT_BRANCH
 
 git merge $OTHER_BRANCH
