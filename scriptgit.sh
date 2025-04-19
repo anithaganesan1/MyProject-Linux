@@ -18,11 +18,11 @@ read -p "Enter the Other Branch" OTHER_BRANCH
 
 git checkout $OTHER_BRANCH
 
-touch sampleApi angular asp-net sqlserver
+touch  core,react.txt
 
 git add .
  
-git commit -m "the is the demo"
+git commit -m "this changes"
 
 git checkout $CURRENT_BRANCH
 
