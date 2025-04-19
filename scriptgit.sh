@@ -18,11 +18,11 @@ read -p "Enter the Other Branch" OTHER_BRANCH
 
 git checkout $OTHER_BRANCH
 
-touch  core,react.txt
+touch  phthon.txt,maven.txt
 
 git add .
  
-git commit -m "this changes"
+git commit -m "lastbest"
 
 git checkout $CURRENT_BRANCH
 
