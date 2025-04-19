@@ -9,7 +9,6 @@ echo "Current Branch is $CURRENT_BRANCH"
 
 git fetch origin 
 
-
 git rebase $CURRENT_BRANCH
 
 
